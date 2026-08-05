@@ -6,7 +6,7 @@ spring:
   datasource:
     url: jdbc:postgresql://localhost:9032/vintrix-account-db
     username: user
-    password: vinayak
+    password: password
     driver-class-name: org.postgresql.Driver
   security:
     oauth2:
