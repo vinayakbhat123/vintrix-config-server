@@ -20,9 +20,6 @@ spring:
        hibernate:
          jdbc:
            time_zone: Asia/Kolkata
-  profiles:
-      active: dev   # or whichever profile has the property
-
 stripe:
   api:
     secret: sk_test_51TthQQ0G4WQm95GkuBEE2Js6cEVwc8vUhbaNYf26Ffw9ZTJWUJO4uHs7vvv45s8zjQk4AhCQKqnjrPStctAcr4Er00NSDuVX8f
