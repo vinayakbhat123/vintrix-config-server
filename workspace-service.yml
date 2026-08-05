@@ -1,1 +1,10 @@
+server:
+  port: 9050
+  servlet.context-path: /workspace
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:9032/vintrix-workspace-db
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
