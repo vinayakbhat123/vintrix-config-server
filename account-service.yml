@@ -8,6 +8,13 @@ spring:
     username: user
     password: password
     driver-class-name: org.postgresql.Driver
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 115874780761-m9j1qlb5u2s8q9664m3o9vt9hic3h61u.apps.googleusercontent.com
+            client-secret: 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
   jpa:
      properties:
        hibernate:
