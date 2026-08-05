@@ -26,3 +26,5 @@ stripe:
     secret: sk_test_51TthQQ0G4WQm95GkuBEE2Js6cEVwc8vUhbaNYf26Ffw9ZTJWUJO4uHs7vvv45s8zjQk4AhCQKqnjrPStctAcr4Er00NSDuVX8f
   webhook:
     secret:  whsec_775c8e52cab4fa5f6a1ff970e6e52947b6b230848a88420f2769a622a79bf02f
+client:
+  url: http://localhost:8081
