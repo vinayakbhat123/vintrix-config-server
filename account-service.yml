@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:9032/vintrix-account-db
+    url: jdbc:postgresql://localhost:1032/vintrix-account-db
     username: user
     password: password
     driver-class-name: org.postgresql.Driver
