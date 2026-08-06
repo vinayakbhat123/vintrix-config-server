@@ -1,5 +1,5 @@
 server:
-  port: 9040
+  port: 7010
   servlet.context-path: /account
 
 spring:
