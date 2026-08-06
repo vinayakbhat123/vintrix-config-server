@@ -1,5 +1,5 @@
 server:
-  port: 9070
+  port: 7020
   servlet.context-path: /workspace
 
 spring:
