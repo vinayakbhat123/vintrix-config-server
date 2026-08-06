@@ -4,7 +4,7 @@ server:
 
 spring:
   datasource:
-    url: jdbc:postgresql://localhost:9032/vintrix-workspace-db?TimeZone=Asia/Kolkata
+    url: jdbc:postgresql://localhost:1032/vintrix-workspace-db?TimeZone=Asia/Kolkata
     username: user
     password: password
     driver-class-name: org.postgresql.Driver
@@ -18,7 +18,7 @@ spring:
         jdbc:
           time_zone: Asia/Kolkata
 minio:
-  url: http://localhost:9000
+  url: http://localhost:1001
   access-key: minioadmin
   secret-key: minioadmin123
   project-bucket: project1
