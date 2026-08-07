@@ -1,1 +1,10 @@
+server:
+  port: 7040
+  servlet.context-path: /inteligence
 
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:1032/vintrix-inteligence-db?TimeZone=Asia/Kolkata
+    username: user
+    password: password
+    driver-class-name: org.postgresql.Driver
