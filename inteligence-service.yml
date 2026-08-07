@@ -8,3 +8,10 @@ spring:
     username: user
     password: password
     driver-class-name: org.postgresql.Driver
+  ai:
+    ollama:
+      base-url: http://127.0.0.1:11434
+      chat:
+        options:
+          model: llama3.2:3b
+          temperature: 0.0   
