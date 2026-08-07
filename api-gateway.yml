@@ -11,6 +11,7 @@ spring:
             - Path=/api/v1/account/**
           filters:
             - StripPrefix=2
+            
         #Inteligence service(context-path:/account)
         - id: inteligence-service
           uri: lb://inteligence-service
@@ -18,6 +19,7 @@ spring:
             - Path=/api/v1/inteligence/**
           filters:
             - StripPrefix=2
+            
         #workspace service(context-path:/account)
         - id: workspace-service
           uri: lb://workspace-service
