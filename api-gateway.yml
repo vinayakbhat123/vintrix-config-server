@@ -15,7 +15,7 @@ spring:
       routes:
         #Account service(context-path:/account)
         - id: account-service
-          uri: lb://account-service
+          uri: ${ACCOUNT_SERVICE_URI:lb://account-service}
           predicates:
             - Path=/api/v1/account/**
           filters:
@@ -23,7 +23,7 @@ spring:
             
         #Inteligence service(context-path:/account)
         - id: inteligence-service
-          uri: lb://inteligence-service
+          uri: ${INTELIGENCE_SERVICE_URI:lb://inteligence-service}
           predicates:
             - Path=/api/v1/inteligence/**
           filters:
@@ -31,7 +31,7 @@ spring:
             
         #workspace service(context-path:/account)
         - id: workspace-service
-          uri: lb://workspace-service
+          uri: ${WORKSPACE_SERVICE_URI:lb://workspace-service}
           predicates:
             - Path=/api/v1/workspace/**
           filters:
