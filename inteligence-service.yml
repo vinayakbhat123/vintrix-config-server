@@ -17,4 +17,12 @@ spring:
         options:
           model: llama3.2:3b
           temperature: 0.0   
-  
+---
+spring:
+  config:
+    activate:
+      on-profile: k8s
+  datasource:
+    url: jdbc:postgresql://pgvector.vintrix-core.svc.clustor.local:5432/inteligence-db
+    username: inteligence_user
+    password: ${DB_PASSWORD} 
